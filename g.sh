@@ -1,9 +1,9 @@
 git pull
-cp ../60mb-file .
-git add 60mb-file
-git commit -m "test"
+cp ../35mb-file .
+git add 35mb-file
+git commit -m "add file"
 git push
-rm 60mb-file
+rm 35mb-file
 git add .
 git commit -m "rm"
 git push
